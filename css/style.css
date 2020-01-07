@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.clearfix:after{
+	clear: both;
+	content:".";
+}
+
+.wrap{
+	width:960px;
+	margin:0 auto;
+}
+
+.sports ul{
+		display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+
+.pc ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+.work ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+
+.skill p{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+	
+.thumbnail ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+
+.contact a{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+
+.contact a:hover{
+	background:url(../images/contact_on.gif) no-repeat;
+	background-position:center;
+}
+
+.contact a:hover img{
+	visibility:hidden;/*マウスオーバーすることによって表紙の画像が非表示になるよう指定*/
+}
+
+
+h3{
+	color:#15ac63;
+}
+
+h2{
+	width:960px;
+	height:30px;
+	padding:10px;
+	color:#454545;
+	background-color:#a7eef7;
+}
+
+footer{
+	background-color:#454545;
+	position:relative;
+	width:960px;
+	height:100px;
+	margin-top:100px;
+}
+
+footer p{
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	bottom:0;
+	left:300px;
+}
+
+.absolute{
+	color:none;
+	position:absolute;
+	top:-50px;
+	left:420px;
+}

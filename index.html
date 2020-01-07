@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="js/jquery.corner.js" type="text/javascript"></script>
+  <script src="js/lightbox.js" type="text/javascript"></script>
+  <script src="js/smoothScroll.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('a[rel*=lightbox]').lightBox();
+    });
+  </script>
+  <script type="text/javascript">
+    smoothScroll.init({
+      speed : 1000
+    });
+  </script>
+  <title>portfolio</title>
+</head>
+<body>
+  <div class="wrap" id="top">
+    <h1><img src="images/mv.JPG" alt="メインビジュアル"></h1>
+    <div class="sports clearfix">
+      <h3>経験スポーツ</h3>
+      <ul>
+        <li><img src="images/karate.gif" alt="空手"></li>
+        <li><img src="images/basketball.gif" alt="バスケ"></li>
+        <li><img src="images/table_tennis.gif" alt="卓球"></li>
+        <li><img src="images/badminton.gif" alt="バドミントン"></li>
+      </ul>
+    </div>
+    <!--.sportsEnd-->
+    <div class="pc clearfix">
+      <h3>PC歴</h3>
+      <ul>
+        <li><img src="images/windows.jpeg" alt="Windows"></li>
+        <li><img src="images/apple.JPG" alt="Mac"></li>
+      </ul>
+    </div>
+    <!--.pcEnd-->
+    <h3>WEBポートフォリオ</h3>
+    <ul>
+      <li><a href="#">公開準備中</a></li>
+      <li><a href="#">公開準備中</a></li>
+    </ul>
+    <div class="work clearfix">
+      <h3>職歴</h3>
+      <ul>
+        <li><img src="images/manufacture.gif" alt="電子機器の製造業にて3年"></li>
+        <li><img src="images/apparel.gif" alt="アパレル企業にて7年"></li>
+      </ul>
+    </div>
+    <!--.workEnd-->
+    <div class="skill">
+      <h3>スキル</h3>
+      <p><img src="images/skill.JPG" alt="スキル"></p>
+    </div>
+    <!--skillEnd-->
+    <h2>ポートフォリオ一問一答</h2>
+    <p>●制作した時間</p>
+    <p>1時間</p>
+    <p>●コンセプト</p>
+    <p>伝えたいことを視覚的に伝えるポートフォリオ</p>
+    <p>●掲載した内容</p>
+    <p>イタリアンレストランのWEBサイトを制作する上で<br>
+      「ロゴ」「名刺」「バナー」の3つを作成しました。</p>
+    <div class="thumbnail clearfix">
+      <ul>
+        <li>ロゴ</li>
+        <li>名刺</li>
+        <li>バナー</li>
+      </ul>
+      <ul>
+        <li><a href="images/logo_03.gif" rel="lightbox"><img src="images/logo.gif" alt="ロゴ"></a></li>
+        <li><a href="images/business_card_03.gif" rel="lightbox"><img src="images/business_card.gif" alt="名刺"></a></li>
+        <li><a href="images/bnr_03.jpg" rel="lightbox"><img src="images/bnr.jpg" alt="バナー"></a></li>
+      </ul>
+    </div>
+    <!--.thumbnailEnd-->
+    <div class="contact">
+      <h2>エンジニアとして、日々奮闘中！！ お気軽にご連絡くださいませ</h2>
+      <a href="mailto:#"><img src="images/contact_off.gif" alt="contact"></a>
+    </div>
+    <!--contactEnd-->
+    <footer>
+      <div class="absolute">
+        <a href="#top" data-scroll><img src="images/top.gif" alt="top"></a>
+      </div>
+      <!--.absoluteEnd-->
+      <p>Copyright&copy;2020 Kakizawa Kazuki All Rights Reserved.</p>
+    </footer>
+  </div>
+  <!--.wrapEnd-->
+</body>
